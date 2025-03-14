@@ -4,7 +4,7 @@ This repository contains tools for constructing datasets from documents.
 
 - [x] [scraping](./scraping.ipynb): Tools for scraping documents from Digital Corpora [1] which contains 8 Mio toal and ~900.000 german pdf files.
 - [ ] [sync](): Tools for syncing the documents to a remote server.
-- [x] [tesseract](./tesseract.ipynb): Tools for using tesseract to extract text from scraped pdf-files.
+- [x] [ocr](./ocr.ipynb): Tools for extracting text from scraped pdf-files using docling or tesseract.
 - [ ] [postprocessing](): Tools for postprocessing the text extracted from the pdf-files. This includes removing duplicates or empty documents as well as filtering out non-german documents, etc. (TODO)
 - [ ] [prediction](): Tools for predicting the category of the documents using LLMs (TODO)
 - [ ] [embedding](): Tools for embedding the documents into a vector space for classification (TODO)
